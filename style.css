@@ -1,0 +1,56 @@
+/*overall background color*/
+body {
+    background-color: lightcyan;
+}
+
+/*top line header- needs future work*/
+.header {
+    background-color: skyblue;
+    max-height: 250px;
+    text-align: right;
+}
+
+/*lines up 3 links vertically in html instead of being lined up horitzantally*/
+.header ul li {
+    display: inline-block;
+    margin-right: auto;
+}
+
+/*puts portfolio image below header- needs future work*/
+.evil {
+    height: 450px;
+    width: 25%;
+    background-image: url("./portfolio-image.jpg");
+}
+
+/*puts medical image as background cover*/
+.hero {
+    height: 800px;
+    width: 100%;
+    margin-bottom: 25px;
+    background-image: url("./medical-cover.jpg.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+/*sets up grid with 2 columns and 3 rows*/
+.grid-container {
+      display: grid;
+      grid-template-columns: 25% 75%;
+      grid-template-rows: 30% 30% 30%;
+  }
+    
+  /*sets up grid elements with colors and border colors*/
+  .grid-item {
+      background-color: lightcyan;
+      border: solid;
+      border-color: slategray;
+      color: black;
+      text-align: center;
+  }
+
+  /*defines footer- needs future work*/
+  footer {
+      color: black;
+  }
+  
